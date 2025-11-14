@@ -14,18 +14,20 @@ This repository stores `.gitignore` files created for personal use and learning.
 
 They can be copied and used in any project if needed.
 
-## File Naming Format
-The file names follow a simple format (examples):
+## Repository Structure
+Each template lives inside its own folder, and the ignore rules are stored in
+that folder’s `.gitignore` file. Examples:
 
-- `AndroidStudio-Custom.gitignore`
-- `Arduino-Custom.gitignore`
+- `Android-Studio/.gitignore`
+- `Arduino/.gitignore`
+- `WebDev/.gitignore`
 
-All files are placed directly in the main folder.
+This keeps every template ready to copy as-is while keeping the repo tidy.
 
 ## Usage
-Choose the `.gitignore` file that matches your project type.  
-
-Before using, rename the file to `.gitignore` and place it in the root folder of your project.  
+Choose the folder that matches your project type, then copy its `.gitignore`
+into the root of your project (rename only if you need more than one template
+in the same repo).  
 
 Modify the contents based on your own requirements.
 
