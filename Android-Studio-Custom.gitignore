@@ -1,0 +1,84 @@
+# Android-Studio-Custom.gitignore
+# Created on: 14 Nov 2025
+# Created by: https://github.com/abin-in
+# Updated on: 14 Nov 2025
+# Updated by:
+
+# ---------------------------------------------------------
+# ANDROID STUDIO / GRADLE
+# ---------------------------------------------------------
+
+# Gradle files
+.gradle/
+**/build/
+!src/**/build.gradle
+
+# Local configuration (SDK paths)
+local.properties
+
+# Android Studio project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# Compiled class/dex/apk
+*.class
+*.dex
+*.apk
+*.ap_
+*.aar
+
+# Generated directories
+bin/
+gen/
+out/
+
+# Screenshots from "Capture" tool
+captures/
+
+# ---------------------------------------------------------
+# WINDOWS SYSTEM FILES
+# ---------------------------------------------------------
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------------------------------------------------------
+# TEMP / BACKUP / MISC FILES
+# ---------------------------------------------------------
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*.orig
+
+# macOS (optional)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---------------------------------------------------------
+# SENSITIVE FILES (NEVER COMMIT)
+# ---------------------------------------------------------
+
+*.jks
+*.keystore
+
+# ---------------------------------------------------------
+# OPTIONAL / GENERAL
+# ---------------------------------------------------------
+
+__pycache__/
+*.pyc
+node_modules/
