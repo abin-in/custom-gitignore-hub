@@ -17,8 +17,8 @@ They can be copied and used in any project if needed.
 ## File Naming Format
 The file names follow a simple format (examples):
 
-- `AndroidStudio.gitignore`
-- `arduino.gitignore`
+- `AndroidStudio-Custom.gitignore`
+- `Arduino-Custom.gitignore`
 
 All files are placed directly in the main folder.
 
