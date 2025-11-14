@@ -26,8 +26,7 @@ This keeps every template ready to copy as-is while keeping the repo tidy.
 
 ## Usage
 Choose the folder that matches your project type, then copy its `.gitignore`
-into the root of your project (rename only if you need more than one template
-in the same repo).  
+into the root of your project.  
 
 Modify the contents based on your own requirements.
 
